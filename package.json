@@ -1,5 +1,5 @@
 {
-  "name": "react-native-animated-icons",
+  "name": "react-native-amazing-icons",
   "version": "1.0.0",
   "description": "A collection of beautifully animated React Native icons inspired by popular social media platforms. Each animation is optimized for performance and designed to create engaging user interactions.",
   "keywords": [
@@ -10,13 +10,13 @@
     "like",
     "animated-icons"
   ],
-  "homepage": "https://github.com/Bauss9/react-native-animated-icons#readme",
+  "homepage": "https://github.com/Bauss9/react-native-amazing-icons#readme",
   "bugs": {
-    "url": "https://github.com/Bauss9/react-native-animated-icons/issues"
+    "url": "https://github.com/Bauss9/react-native-amazing-icons/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bauss9/react-native-animated-icons.git"
+    "url": "git+https://github.com/Bauss9/react-native-amazing-icons.git"
   },
   "license": "MIT",
   "author": "Bauss9",
@@ -25,6 +25,16 @@
   "directories": {
     "example": "example"
   },
+  "peerDependencies": {
+  "react": "*",
+  "react-native": "*",
+  "react-native-svg": ">=12.0.0"
+},
+"devDependencies": {
+  "react": "^18.2.0",
+  "react-native": "^0.74.0",
+  "react-native-svg": "^15.0.0"
+},
 "scripts": {
   "build": "mkdir -p lib && cp -r src/* lib/",
   "prepare": "npm run build",

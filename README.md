@@ -1,4 +1,4 @@
-# react-native-animated-icons
+# react-native-amazing-icons
 A collection of beautifully animated React Native icons inspired by popular social media platforms. Each animation is optimized for performance and designed to create engaging user interactions.
 
 ## Demo
@@ -9,9 +9,9 @@ A collection of beautifully animated React Native icons inspired by popular soci
 ## Installation
 
 ```bash
-npm install react-native-animated-icons react-native-svg
+npm install react-native-amazing-icons react-native-svg
 # or
-yarn add react-native-animated-icons react-native-svg
+yarn add react-native-amazing-icons react-native-svg
 ```
 
 ## Props
@@ -32,7 +32,7 @@ yarn add react-native-animated-icons react-native-svg
 
 import React, { useState } from 'react';
 import { View } from 'react-native';
-import { AnimatedHeart } from 'react-native-animated-icons';
+import { AnimatedHeart } from 'react-native-amazing-icons';
 
 const MyComponent = () => {
   const [liked, setLiked] = useState(false);
